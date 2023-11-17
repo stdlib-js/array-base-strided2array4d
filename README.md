@@ -41,30 +41,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-base-strided2array4d
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var strided2array4d = require( '@stdlib/array-base-strided2array4d' );
+import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@deno/mod.js';
 ```
 
 #### strided2array4d( x, shape, strides, offset )
@@ -109,10 +93,10 @@ The function accepts the following arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var zeroTo = require( '@stdlib/array-base-zero-to' );
-var numel = require( '@stdlib/ndarray-base-numel' );
-var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
-var strided2array4d = require( '@stdlib/array-base-strided2array4d' );
+import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
+import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
+import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@deno/mod.js';
 
 var shape = [ 1, 3, 3, 3 ];
 
@@ -147,7 +131,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -207,7 +191,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-strided2array4d/main/LICENSE
 
-[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible
+[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible/tree/deno
 
 </section>
 
