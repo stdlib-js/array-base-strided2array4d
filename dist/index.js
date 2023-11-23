@@ -1,5 +1,5 @@
-"use strict";var w=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var k=w(function(C,j){
-function z(u,r,a,l){var x,c,p,e,s,h,m,o,q,y,b,g,f,v,i,t,d,n,S;for(g=r[0],b=r[1],y=r[2],q=r[3],s=a[0],e=a[1],p=a[2],c=a[3],x=[],t=0;t<g;t++){for(d=[],h=l+s*t,i=0;i<b;i++){for(n=[],m=h+e*i,v=0;v<y;v++){for(S=[],o=m+p*v,f=0;f<q;f++)S.push(u[o]),o+=c;n.push(S)}d.push(n)}x.push(d)}return x}j.exports=z
-});var A=k();module.exports=A;
+"use strict";var w=function(v,r){return function(){return r||v((r={exports:{}}).exports,r),r.exports}};var j=w(function(D,b){
+var z=require('@stdlib/array-base-resolve-getter/dist');function A(v,r,a,k){var S,e,c,p,s,q,g,h,o,l,m,y,G,x,t,i,u,f,d,n;for(S=z(v),G=r[0],y=r[1],m=r[2],l=r[3],q=a[0],s=a[1],p=a[2],c=a[3],e=[],u=0;u<G;u++){for(f=[],g=k+q*u,i=0;i<y;i++){for(d=[],h=g+s*i,t=0;t<m;t++){for(n=[],o=h+p*t,x=0;x<l;x++)n.push(S(v,o)),o+=c;d.push(n)}f.push(d)}e.push(f)}return e}b.exports=A
+});var B=j();module.exports=B;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
