@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@esm/index.mjs';
+import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@v0.2.0-esm/index.mjs';
 ```
 
 #### strided2array4d( x, shape, strides, offset )
@@ -101,7 +101,7 @@ The function accepts the following arguments:
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
-import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@esm/index.mjs';
+import strided2array4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-strided2array4d@v0.2.0-esm/index.mjs';
 
 var shape = [ 1, 3, 3, 3 ];
 
